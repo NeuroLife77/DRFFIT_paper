@@ -212,7 +212,7 @@ def custom_loss_adjusted_norm_rmse(target, data, dim = 1):
 def get_real_individual_PSD_scaled(cutoff = 4, Hz = 50):
     real_data = []
     for i in range(2):
-        real_data.append(np.load(f'./Data/PSD_dataset/reordered_dataset{i}.npy', allow_pickle=True))
+        real_data.append(np.load(f'../Data/PSD_dataset/reordered_dataset{i}.npy', allow_pickle=True))
     real_data_1 = as_tensor(real_data[0]).view(1,49,68,-1)
     real_data_2 = as_tensor(real_data[1]).view(1,49,68,-1)
     real_data = cat((real_data_1,real_data_2), dim = 0)
@@ -230,17 +230,15 @@ def ensure_torch(x, type_float = True):
     except:
         try:
             x = torch.from_numpy(x)
-            if type_float:
-                x = x.float()
-        except:
+        except: 
             pass
-    
     if type_float:
         try:
             x = x.float()
         except:
             pass
- 
+    return x
+
 def ensure_numpy(x):
     
     try:

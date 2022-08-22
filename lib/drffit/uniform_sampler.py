@@ -4,8 +4,7 @@ import numpy as np
 from time import time
 
 class uniform_around_sampler:
-
-    def __init__(self,theta_min, theta_range = None, theta_max = None, random_seed = None, sample_distribution = 'sphere', **kwargs):
+    def __init__(self,theta_min, theta_range = None, theta_max = None, random_seed = None,sample_distribution = 'sphere', **kwargs):
         theta_min = ensure_numpy(theta_min)
         theta_range = ensure_numpy(theta_range)
         theta_max = ensure_numpy(theta_max)
@@ -33,7 +32,7 @@ class uniform_around_sampler:
     
     def set_sample_width(self,width, **kwargs):
         self.width = self.theta_range * width
-    
+        
     def set_state(self,point = None, width = None, **kwargs):
         if point is not None:
             self.set_sample_center(point)
