@@ -1,6 +1,6 @@
 # Repository for DR-FFIT (manuscript)
 
-This repository contains the code used to implement DR-FFIT, the simulators, the search algorithms, the tests, and the analyses of the results.
+This repository contains the code used to implement DR-FFIT, the simulators, the search algorithms, the tests, and the analysis of the results.
 
 The "lib" directory contains the DR-FFIT implementation, the simulators and other miscellaneous functions. The "Feature_extraction" directory contains the implementation of the black-box feature functions (AutoEncoders and PCA).
 
