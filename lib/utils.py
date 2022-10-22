@@ -220,7 +220,7 @@ def get_real_individual_PSD_scaled(cutoff = 4, Hz = 50):
         real_data[0][i] /= tmax(real_data[0][i][:,cutoff:2*Hz])
         real_data[1][i] /= tmax(real_data[1][i][:,cutoff:2*Hz])
     return real_data[:,:,:,cutoff:2*Hz]
-full_real_psds = get_real_individual_PSD_scaled()
+#full_real_psds = get_real_individual_PSD_scaled()
 
 def ensure_torch(x, type_float = True):
     try:
