@@ -49,17 +49,17 @@ file_tests = []
 search_settings_list = [
         {'samp': {'drffit': {'dist': 'sphere', 'width': 0.0}, 'baseline': {'dist': 'sphere', 'width': 0.125}}, 'bas_dim': 0, 'init_file': 'cube_10000_0', 'LD': '5LD', 'tests': ['pure']} ,
         {'samp': {'drffit': {'dist': 'sphere', 'width': 0.0}, 'baseline': {'dist': 'sphere', 'width': 0.1}}, 'bas_dim': 0, 'init_file': 'cube_10000_0', 'LD': '5LD', 'tests': ['SA']} ,
-        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'cube', 'width': 0.0}}, 'bas_dim': 8, 'init_file': 'cube_10000_0', 'LD': '5LD', 'tests': ['pure_AE']} ,
-        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'cube', 'width': 0.0}}, 'bas_dim': 10, 'init_file': 'cube_10000_0', 'LD': '5LD', 'tests': ['pure_PCA']} ,
-        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'cube', 'width': 0.0}}, 'bas_dim': 11, 'init_file': 'cube_10000_0', 'LD': '5LD', 'tests': ['SA_AE']} ,
-        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'cube', 'width': 0.0}}, 'bas_dim': 10, 'init_file': 'cube_10000_0', 'LD': '5LD', 'tests': ['SA_PCA']} ,
+        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'sphere', 'width': 0.0}}, 'bas_dim': 8, 'init_file': 'cube_10000_0', 'LD': '5LD', 'tests': ['pure_AE']} ,
+        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'sphere', 'width': 0.0}}, 'bas_dim': 10, 'init_file': 'cube_10000_0', 'LD': '5LD', 'tests': ['pure_PCA']} ,
+        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'sphere', 'width': 0.0}}, 'bas_dim': 11, 'init_file': 'cube_10000_0', 'LD': '5LD', 'tests': ['SA_AE']} ,
+        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'sphere', 'width': 0.0}}, 'bas_dim': 10, 'init_file': 'cube_10000_0', 'LD': '5LD', 'tests': ['SA_PCA']} ,
     
         {'samp': {'drffit': {'dist': 'sphere', 'width': 0.0}, 'baseline': {'dist': 'sphere', 'width': 0.1}}, 'bas_dim': 0, 'init_file': 'cube_10000_1', 'LD': '5LD', 'tests': ['pure']} ,
         {'samp': {'drffit': {'dist': 'sphere', 'width': 0.0}, 'baseline': {'dist': 'sphere', 'width': 0.125}}, 'bas_dim': 0, 'init_file': 'cube_10000_1', 'LD': '5LD', 'tests': ['SA']} ,
-        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'cube', 'width': 0.0}}, 'bas_dim': 8, 'init_file': 'cube_10000_1', 'LD': '5LD', 'tests': ['pure_AE']} ,
-        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'cube', 'width': 0.0}}, 'bas_dim': 10, 'init_file': 'cube_10000_1', 'LD': '5LD', 'tests': ['pure_PCA']} ,
-        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.175}, 'baseline': {'dist': 'cube', 'width': 0.0}}, 'bas_dim': 11, 'init_file': 'cube_10000_1', 'LD': '5LD', 'tests': ['SA_AE']} ,
-        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'cube', 'width': 0.0}}, 'bas_dim': 12, 'init_file': 'cube_10000_1', 'LD': '5LD', 'tests': ['SA_PCA']} ,
+        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'sphere', 'width': 0.0}}, 'bas_dim': 8, 'init_file': 'cube_10000_1', 'LD': '5LD', 'tests': ['pure_AE']} ,
+        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'sphere', 'width': 0.0}}, 'bas_dim': 10, 'init_file': 'cube_10000_1', 'LD': '5LD', 'tests': ['pure_PCA']} ,
+        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.175}, 'baseline': {'dist': 'sphere', 'width': 0.0}}, 'bas_dim': 11, 'init_file': 'cube_10000_1', 'LD': '5LD', 'tests': ['SA_AE']} ,
+        {'samp': {'drffit': {'dist': 'sphere', 'width': 0.15}, 'baseline': {'dist': 'sphere', 'width': 0.0}}, 'bas_dim': 12, 'init_file': 'cube_10000_1', 'LD': '5LD', 'tests': ['SA_PCA']} ,
 
 ]
 for search_settings in search_settings_list:
